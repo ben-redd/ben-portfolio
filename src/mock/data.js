@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: "Ben's Portfolio", // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Ben',
+  subtitle: "I'm a Web Developer",
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
@@ -28,38 +28,40 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'magic-brain.jpg',
+    title: 'Face Recognition Brain',
+    info:
+      'A face recognition app that can detect a persons face in an image using the Clarifai API.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://face-recognition-brain2.herokuapp.com/',
+    repo: 'https://github.com/ben-redd/face-recognition-brain', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robo-friends.jpg',
+    title: 'Robo-Friends',
+    info: 'A simple react app with robot user cards and search functionality.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://ben-redd.github.io/robo-friends/',
+    repo: 'https://github.com/ben-redd/robo-friends', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'background-generator.jpg',
+    title: 'Background Genereator',
+    info:
+      'An app that generates a linear-gradient background and displays the proper css representation of that gradient',
     info2: '',
-    url: '',
+    url: 'https://ben-redd.github.io/background-generator/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Are you interested in working with me?',
+  btn: "Let's Talk",
+  email: 'bentheredd13@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +69,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/arf65',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/benjaminredd',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ben-redd',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
