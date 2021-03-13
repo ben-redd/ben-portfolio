@@ -9,19 +9,22 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, my name is',
+  title: "Hi, I'm",
   name: 'Ben',
-  subtitle: "I'm a Web Developer",
+  subtitle: "I want to be the next developer on you're team",
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile3.jpg',
+  paragraphOne: `I am a fairly simple person who loves to learn new things. I enjoy the beauty of the outdoors, spending time with family and friends, listening to and playing music, and building interesting things.
+`,
+  paragraphTwo: `I have been developing web applications on my own for over two years. For part of this time I was just learning in my freetime, but during the Covid-19 pandemic I had the opportunity to leave my day job and focus all of my efforts on improving my skills as a developer. I have most recently been taking various courses through an online school called Zero to Mastery Academy. I have completed courses such as “Complete Web Developer in 2021,” “JavaScript: The Advanced Concepts,” and “Data Structures and Algorithms.” Through these courses, working on my own projects, and other sources, I’ve gained experience in HTML, CSS, JavaScript, ReactJS, NodeJS, Express, SQL, and more.
+`,
+  paragraphThree: `At this point, I want to take the next step in my journey and obtain full time work as a developer. I know I’m not the most experienced or knowledgable developer, but I know that I have the skills, desire, and work ethic necessary to be beneficial to any team. Put simply, if you hire me, I promise that with time I will become one of the most valuable developers on your team. 
+`,
+  resume: 'https://www.resumemaker.online/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -69,11 +72,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'codepen',
-      url: 'https://codepen.io/arf65',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/benjaminredd',
     },
@@ -81,6 +79,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/ben-redd',
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
+      url: 'https://codepen.io/arf65',
     },
   ],
 };
