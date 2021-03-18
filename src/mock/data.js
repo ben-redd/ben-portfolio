@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'magic-brain.jpg',
     title: 'Face Recognition Brain',
     info:
-      'A face recognition app that can detect a persons face in an image using the Clarifai API.',
+      'A face recognition app that can detect a persons face in an image using the Clarifai API. Uses React, and has a fully functional back end with user authentication. Deployed with Heroku',
     info2: '',
     url: 'https://face-recognition-brain2.herokuapp.com/',
     repo: 'https://github.com/ben-redd/face-recognition-brain', // if no repo, the button will not show up
@@ -43,7 +43,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'robo-friends.jpg',
     title: 'Robo-Friends',
-    info: 'A simple react app with robot user cards and search functionality.',
+    info:
+      'A simple react app with robot user cards and search functionality. Made with create-react-app.',
     info2: '',
     url: 'https://ben-redd.github.io/robo-friends/',
     repo: 'https://github.com/ben-redd/robo-friends', // if no repo, the button will not show up
@@ -51,9 +52,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'background-generator.jpg',
-    title: 'Background Genereator',
+    title: 'Background Generator',
     info:
-      'An app that generates a linear-gradient background and displays the proper css representation of that gradient',
+      'A vanilla JavaScript app that generates a linear-gradient background and displays the proper css representation of that gradient.',
     info2: '',
     url: 'https://ben-redd.github.io/background-generator/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
