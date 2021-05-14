@@ -36,8 +36,8 @@ export const projectsData = [
     info:
       'A face recognition app that can detect a persons face in an image using the Clarifai API. Uses React, and has a fully functional back end with user authentication. Deployed with Heroku',
     info2: '',
-    url: 'https://face-recognition-brain2.herokuapp.com/',
-    repo: 'https://github.com/ben-redd/face-recognition-brain', // if no repo, the button will not show up
+    url: 'https://face-recognition-app-frontend1.herokuapp.com/',
+    repo: 'https://github.com/ben-redd/face-recognition-app-front-end', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
