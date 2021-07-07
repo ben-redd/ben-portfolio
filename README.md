@@ -1,3 +1,19 @@
+### Note: if you run into error code 1 when installing packages via npm, run the following to fix it or see this thread https://github.com/gatsbyjs/gatsby/issues/27548
+
+$ npm cache clean or npm cache clean --force
+
+then
+
+$ rm -rf node_modules package-lock.json
+
+then
+
+$ npm install
+
+if Socket timeout again use command npm install
+
+$ npm run develop
+
 # Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
 
 ## A clean, beautiful and responsive portfolio template for Developers
