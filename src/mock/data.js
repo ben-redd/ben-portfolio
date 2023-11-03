@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Ben',
-  subtitle: 'I want to be the next developer on your team',
+  subtitle: 'I want to be the next engineer on your team',
   cta: 'Learn more',
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Face Recognition Brain',
     info: 'A face recognition app that can detect a persons face in an image using the Clarifai API. Uses React, and has a fully functional back end with user authentication. Deployed with Heroku',
     info2: '',
-    url: 'https://face-recognition-app-frontend1.herokuapp.com/',
+    url: 'https://github.com/ben-redd/face-recognition-app-front-end/tree/main',
     repo: 'https://github.com/ben-redd/face-recognition-app-front-end', // if no repo, the button will not show up
   },
   {
@@ -54,7 +54,7 @@ export const projectsData = [
     info: 'A vanilla JavaScript app that generates a linear-gradient background and displays the proper css representation of that gradient.',
     info2: '',
     url: 'https://ben-redd.github.io/background-generator/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ben-redd/background-generator', // if no repo, the button will not show up
   },
 ];
 
