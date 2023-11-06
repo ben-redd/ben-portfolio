@@ -11,18 +11,19 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Ben',
-  subtitle: 'I want to be the next engineer on your team',
+  subtitle: 'I want to be the next QA engineer on your team',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: `I am a fairly simple person who loves to learn new things. I enjoy the beauty of the outdoors, spending time with family and friends, listening to and playing music, and building interesting things.
+  paragraphOne: `I'm currently working as a Quality Assurance Engineer at Maxwell, a fintech company specializing in the mortgage industry. In this role, my responsibilities have included manual QA testing, creating end-to-end tests, maintaining and updating our test suite, and some basic front-end development.
 `,
-  paragraphTwo: `I have been developing web applications on my own for over two years. For part of this time I was just learning in my freetime, but during the Covid-19 pandemic I had the opportunity to leave my day job and focus all of my efforts on improving my skills as a developer. I have most recently been taking various courses through an online school called Zero to Mastery Academy. I have completed courses such as “Complete Web Developer in 2021,” “JavaScript: The Advanced Concepts,” and “Data Structures and Algorithms.” Through these courses, working on my own projects, and other sources, I’ve gained experience in HTML, CSS, JavaScript, ReactJS, NodeJS, Express, SQL, and more.
+  paragraphTwo: `One of my most significant contributions at Maxwell was the the role I played in evaluating and adopting the Playwright framework for our end-to-end testing. This decision led to the successful in-housing of our end-to-end testing suite, which had previously been outsourced to a third-party contractor. This change improved our efficiency and showcased my ability to help drive impactful change at Maxwell.
 `,
-  paragraphThree: `At this point, I am working towards taking the next step in my journey by seeking to obtain full time work as either a front end or full stack developer.
+  paragraphThree: `My journey at Maxwell has been marked by my adaptability and commitment to delivering quality while testing complex programs across a number of different teams. This dedication eventually led to a promotion to QA Engineer II, where I've taken on additional responsibilities, such as mentoring new QA engineers and leading our bi-weekly QA guild meetings.
+  While I've enjoyed my time here and gained invaluable experience, I'm now seeking a role that allows me to focus more on test automation and less on manual QA. My current goal is to find a place where I can share my experience while continuing to learn, so that I can ultimately become an automation expert who can help others learn as well.
 `,
   resume: 'https://www.resumemaker.online/', // if no resume, the button will not show up
 };
