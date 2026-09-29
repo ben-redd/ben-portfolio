@@ -11,20 +11,18 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Ben',
-  subtitle: 'I want to be the next QA engineer on your team',
+  subtitle: 'I want to be the next QA Automation engineer on your team',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: `I'm currently working as a Quality Assurance Engineer at Maxwell, a fintech company specializing in the mortgage industry. In this role, my responsibilities have included manual QA testing, creating end-to-end tests, maintaining and updating our test suite, and some basic front-end development.
-`,
-  paragraphTwo: `One of my most significant contributions at Maxwell was the the role I played in evaluating and adopting the Playwright framework for our end-to-end testing. This decision led to the successful in-housing of our end-to-end testing suite, which had previously been outsourced to a third-party contractor. This change improved our efficiency and showcased my ability to help drive impactful change at Maxwell.
-`,
-  paragraphThree: `My journey at Maxwell has been marked by my adaptability and commitment to delivering quality while testing complex programs across a number of different teams. This dedication eventually led to a promotion to QA Engineer II, where I've taken on additional responsibilities, such as mentoring new QA engineers and leading our bi-weekly QA guild meetings.
-  While I've enjoyed my time here and gained invaluable experience, I'm now seeking a role that allows me to focus more on test automation and less on manual QA. My current goal is to find a place where I can share my experience while continuing to learn, so that I can ultimately become an automation expert who can help others learn as well.
-`,
+  paragraphOne: `I'm a QA Automation Engineer with a passion for building reliable test infrastructure, streamlining CI/CD pipelines, and driving quality across complex web applications. Currently at Coalesce, I design and own end-to-end automation strategies using Playwright and TypeScript — architecting everything from in-house visual regression frameworks to replace costly third-party vendors, to high-efficiency test suites built for changing monorepo environments.`,
+
+  paragraphTwo: `Beyond traditional test automation, I've been leveraging AI and agentic workflows to solve complex engineering bottlenecks. Recently, I authored custom prompt harnesses and tool runbooks for Claude Code, creating an autonomous, AI-driven environment lifecycle system that provisions and tears down full multi-tenant organizations. Whether it's diagnosing root-cause CI flakiness or pioneering agentic QA tooling, I focus on building resilient systems that save developer time and accelerate release cycles.`,
+
+  paragraphThree: `My path in tech began with a strong foundation at Maxwell, where I spearheaded the adoption of Playwright, brought outsourced test suites in-house, and led cross-functional manual and mobile QA efforts. Today, I combine that deep product empathy with advanced software automation and AI integration to build modern quality architectures. I'm always looking to connect with teams pushing the boundaries of automated testing, software reliability, and developer tooling.`,
   resume: 'https://www.resumemaker.online/', // if no resume, the button will not show up
 };
 
